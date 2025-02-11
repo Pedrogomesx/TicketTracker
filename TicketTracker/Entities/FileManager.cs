@@ -38,17 +38,16 @@ namespace Ticket.Entities
                 Console.WriteLine($"Arquivo de chamados está em: {pathName}");
                 Directory.CreateDirectory(pathName);
 
-                //     if (File.Exists(pathName) != true)
-                //     {
-                //         Console.WriteLine($"Arquivo não existe, criando!!!!");
-
-                //         File.Create(pathName);
-                //     }
-                // }
-                // else
-                // {
-                //     Console.WriteLine($"Diretório Já existe!");
-                //     Console.WriteLine($"{pathName}");
+            }
+            if (File.Exists(pathName) != true)
+            {
+                Console.WriteLine($"Arquivo não existe, criando!!!!");
+                File.Create(Path.Combine(pathName + @"\TicketTracker.txt"));
+            }
+            else
+            {
+                Console.WriteLine($"Diretório Já existe!");
+                Console.WriteLine($"{pathName}");
 
             }
         }

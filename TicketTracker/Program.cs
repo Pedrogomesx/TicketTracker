@@ -8,9 +8,9 @@ public class Program
     static void Main()
     {
         // FileManager path = new FileManager(@"C:\DevProjects\TicketTracker\ticketTracker.txt");
-        string pathTeste = @"C:\DevProjects\TicketTracker\newFolder\ticketTracker.txt";
+        string pathTeste = @"C:\DevProjects\TicketTracker";
         FileManager path = new FileManager(pathTeste);
-        // path.PathValidation(pathTeste);
+        path.PathValidation(pathTeste);
 
 
         List<JiraTicket> tickets = new List<JiraTicket>();

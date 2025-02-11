@@ -12,3 +12,4 @@ c:\DevProjects\TicketTracker\obj\Debug\net9.0\refint\TicketTracker.dll
 c:\DevProjects\TicketTracker\obj\Debug\net9.0\TicketTracker.pdb
 c:\DevProjects\TicketTracker\obj\Debug\net9.0\TicketTracker.genruntimeconfig.cache
 c:\DevProjects\TicketTracker\obj\Debug\net9.0\ref\TicketTracker.dll
+c:\DevProjects\TicketTracker\obj\Debug\net9.0\TicketTracker.sourcelink.json
