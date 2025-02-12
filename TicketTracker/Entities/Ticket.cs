@@ -1,6 +1,7 @@
 using System;
 using System.Reflection.Metadata.Ecma335;
 using System.Text;
+using Ticket.Entities;
 using TicketTracker.Entities;
 
 namespace TicketTracker.Entities
@@ -14,13 +15,13 @@ namespace TicketTracker.Entities
         public DateTime FinalHour { get; set; }
         public List<JiraTicket> Tickets { get; set; } = new List<JiraTicket>();
         public Cronometro TempoDecorrido { get; set; }
-        public string Txt { get; set; }
+        public NewFileManager Txt { get; set; }
 
         public JiraTicket()
         {
 
         }
-        public JiraTicket(int id, DateTime initialHour, DateTime finalHour, string txt)
+        public JiraTicket(int id, DateTime initialHour, DateTime finalHour, NewFileManager txt)
         {
             Id = id;
             InitialHour = initialHour;

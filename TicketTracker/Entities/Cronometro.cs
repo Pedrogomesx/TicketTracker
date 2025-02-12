@@ -26,6 +26,7 @@ public class Cronometro
                 break;
             }
             Console.Clear();
+            Cronometro.Stop();
         }
 
         // TempoDecorrido = Cronometro.Elapsed;
