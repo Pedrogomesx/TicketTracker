@@ -43,7 +43,7 @@ namespace TicketTracker.Entities
         public string GetTxt()
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append($"Tickets: {Id}-1\n");
+            sb.Append($"Tickets: {Id}\n");
             sb.AppendLine($"Iniciado em:   {InitialHour}");
             sb.AppendLine($"Finalizado em: {FinalHour}");
             // sb.AppendLine($"Tempo total trabalhado: {TempoDecorrido:hh\\:mm\\:ss}");

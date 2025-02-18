@@ -5,41 +5,10 @@ using TicketTracker.Entities;
 
 public class Program
 {
-    // static void Main()
-    // {
-    //     // FileManager path = new FileManager(@"C:\DevProjects\TicketTracker\ticketTracker.txt");
-    //     string pathTeste = @"C:\DevProjects\TicketTracker";
-    //     FileManager path = new FileManager(pathTeste);
-    //     path.PathValidation(pathTeste);
-
-
-    //     List<JiraTicket> tickets = new List<JiraTicket>();
-
-    //     Console.WriteLine($"Insira o número do chamado: ");
-    //     int idTicket = int.Parse(Console.ReadLine());
-
-    //     Console.WriteLine($"Iniciando programa! ");
-    //     DateTime dataInicial = DateTime.Now;
-
-    //     Cronometro cronometro = new Cronometro();
-    //     cronometro.TicTac();
-
-
-
-    //     DateTime dataFinal = DateTime.Now;
-    //     tickets.Add(new JiraTicket(idTicket, dataFinal, dataInicial));
-
-
-    //     foreach (JiraTicket ticket in tickets)
-    //     {
-
-    //         path.GetFile(pathTeste, ticket.GetTxt());
-    //     }
-
-    // }
     static void Main()
     {
 
+        Console.Clear();
         // FileManager path = new FileManager(@"C:\DevProjects\TicketTracker\ticketTracker.txt");
         NewFileManager file = new NewFileManager();
         file.PathValidation();
@@ -48,7 +17,7 @@ public class Program
         List<JiraTicket> tickets = new List<JiraTicket>();
 
         Console.WriteLine($"Insira o número do chamado: ");
-        int idTicket = int.Parse(Console.ReadLine());
+        // int idTicket = int.Parse(Console.ReadLine());
 
         Console.WriteLine($"Iniciando programa! ");
         DateTime dataInicial = DateTime.Now;
@@ -59,7 +28,7 @@ public class Program
 
 
         DateTime dataFinal = DateTime.Now;
-        tickets.Add(new JiraTicket(idTicket, dataFinal, dataInicial));
+        tickets.Add(new JiraTicket(123, dataFinal, dataInicial));
         Console.Clear();
 
         foreach (JiraTicket ticket in tickets)
