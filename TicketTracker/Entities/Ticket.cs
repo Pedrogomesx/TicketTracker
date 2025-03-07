@@ -1,8 +1,5 @@
-using System;
-using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using Ticket.Entities;
-using TicketTracker.Entities;
 
 namespace TicketTracker.Entities
 {
@@ -43,7 +40,7 @@ namespace TicketTracker.Entities
         public string GetTxt()
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append($"Tickets: {Id}\n");
+            sb.Append($"Tickets: {Id}-1\n");
             sb.AppendLine($"Iniciado em:   {InitialHour}");
             sb.AppendLine($"Finalizado em: {FinalHour}");
             // sb.AppendLine($"Tempo total trabalhado: {TempoDecorrido:hh\\:mm\\:ss}");

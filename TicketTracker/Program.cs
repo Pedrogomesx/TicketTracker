@@ -7,7 +7,6 @@ public class Program
     {
 
         Console.Clear();
-        // FileManager path = new FileManager(@"C:\DevProjects\TicketTracker\ticketTracker.txt");
         NewFileManager file = new NewFileManager();
         file.PathValidation();
 
@@ -15,19 +14,17 @@ public class Program
         List<JiraTicket> tickets = new List<JiraTicket>();
 
         Console.WriteLine($"Insira o número do chamado: ");
-        // int idTicket = int.Parse(Console.ReadLine());
+        int idTicket = int.Parse(Console.ReadLine());
 
         Console.WriteLine($"Iniciando programa! ");
         DateTime dataInicial = DateTime.Now;
-        Console.WriteLine(dataInicial);
 
         Cronometro cronometro = new Cronometro();
         cronometro.TicTac();
 
         DateTime dataFinal = DateTime.Now;
-        Console.WriteLine(dataFinal);
 
-        tickets.Add(new JiraTicket(1234, dataInicial, dataFinal));
+        tickets.Add(new JiraTicket(idTicket, dataInicial, dataFinal));
         Console.Clear();
 
 

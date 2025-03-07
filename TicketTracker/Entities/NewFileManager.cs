@@ -11,10 +11,8 @@ namespace Ticket.Entities
         // Construtor padrão
         public NewFileManager()
         {
-            PathName = @$"C:\Users\{Environment.UserName}\Documents\TicketTracker2";
+            PathName = @$"C:\Users\{Environment.UserName}\Documents\TicketTracker";
         }
-
-
 
         public void Writer(string content)
         {
@@ -23,7 +21,6 @@ namespace Ticket.Entities
             using StreamWriter writer = new(filePath, true);
             writer.WriteLine(content);
         }
-
         // Valida se o diretório do TXT existe, se não ele cria
         public void PathValidation()
         {
