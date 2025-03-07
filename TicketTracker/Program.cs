@@ -1,6 +1,4 @@
-﻿
-using System.IO.Enumeration;
-using Ticket.Entities;
+﻿using Ticket.Entities;
 using TicketTracker.Entities;
 
 public class Program
@@ -21,20 +19,22 @@ public class Program
 
         Console.WriteLine($"Iniciando programa! ");
         DateTime dataInicial = DateTime.Now;
+        Console.WriteLine(dataInicial);
 
         Cronometro cronometro = new Cronometro();
         cronometro.TicTac();
 
-
-
         DateTime dataFinal = DateTime.Now;
-        tickets.Add(new JiraTicket(123, dataFinal, dataInicial));
+        Console.WriteLine(dataFinal);
+
+        tickets.Add(new JiraTicket(1234, dataInicial, dataFinal));
         Console.Clear();
+
 
         foreach (JiraTicket ticket in tickets)
         {
 
-            // Console.WriteLine($"{ticket.GetTxt()}");
+            Console.WriteLine($"{ticket.GetTxt()}");
             file.Writer(ticket.GetTxt());
 
             // path.GetFile(pathTeste, ticket.GetTxt());

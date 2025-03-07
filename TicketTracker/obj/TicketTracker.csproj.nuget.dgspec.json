@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\TicketTracker.csproj": {}
+    "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\TicketTracker.csproj": {}
   },
   "projects": {
-    "c:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\TicketTracker.csproj": {
+    "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\TicketTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\TicketTracker.csproj",
+        "projectUniqueName": "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\TicketTracker.csproj",
         "projectName": "TicketTracker",
-        "projectPath": "c:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\TicketTracker.csproj",
+        "projectPath": "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\TicketTracker.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\obj\\",
+        "outputPath": "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
