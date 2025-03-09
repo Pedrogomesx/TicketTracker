@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF650966-B961-1C23-77FE-11E7770D4C44}|TicketTracker.csproj|c:\\users\\pedro\\documents\\github\\tickettracker\\tickettracker\\entities\\newfilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF650966-B961-1C23-77FE-11E7770D4C44}|TicketTracker.csproj|solutionrelative:entities\\newfilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF650966-B961-1C23-77FE-11E7770D4C44}|TicketTracker.csproj|c:\\users\\pedro\\documents\\github\\tickettracker\\tickettracker\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF650966-B961-1C23-77FE-11E7770D4C44}|TicketTracker.csproj|solutionrelative:entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF650966-B961-1C23-77FE-11E7770D4C44}|TicketTracker.csproj|c:\\users\\pedro\\documents\\github\\tickettracker\\tickettracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF650966-B961-1C23-77FE-11E7770D4C44}|TicketTracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF650966-B961-1C23-77FE-11E7770D4C44}|TicketTracker.csproj|c:\\users\\pedro\\documents\\github\\tickettracker\\tickettracker\\entities\\newfilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF650966-B961-1C23-77FE-11E7770D4C44}|TicketTracker.csproj|solutionrelative:entities\\newfilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\Entities\\Ticket.cs",
-              "RelativeDocumentMoniker": "Entities\\Ticket.cs",
-              "ToolTip": "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\Entities\\Ticket.cs",
-              "RelativeToolTip": "Entities\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T03:05:24.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NewFileManager.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\Entities\\NewFileManager.cs",
-              "RelativeDocumentMoniker": "Entities\\NewFileManager.cs",
-              "ToolTip": "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\Entities\\NewFileManager.cs",
-              "RelativeToolTip": "Entities\\NewFileManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T03:00:51.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T02:59:54.154Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -74,6 +31,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:59:54.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewFileManager.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\Entities\\NewFileManager.cs",
+              "RelativeDocumentMoniker": "Entities\\NewFileManager.cs",
+              "ToolTip": "C:\\Users\\pedro\\Documents\\GitHub\\TicketTracker\\TicketTracker\\Entities\\NewFileManager.cs",
+              "RelativeToolTip": "Entities\\NewFileManager.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAWwEEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T23:53:46.483Z",
+              "EditorCaption": ""
             }
           ]
         }

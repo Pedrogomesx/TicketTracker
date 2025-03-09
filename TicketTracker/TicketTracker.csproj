@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Entities\FileManager.txt" />
+    <None Remove="TicketTracker.txt" />
+  </ItemGroup>
+
 </Project>
